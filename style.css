@@ -1,0 +1,53 @@
+body {
+    background-color: whitesmoke;
+}
+
+#mensagens {
+    margin-bottom: 20px;
+}
+
+#primaria {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 740px;
+}
+
+#nome {
+    width: 400px;
+    height: 35px;
+    border-style: none;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+#nome::placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#mensagem {
+    width: 400px;
+    height: 35px;
+    border-style: none;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+#mensagem::placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    width: 70px;
+    height: 40px;
+    border-style: none;
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 2px;
+    transition: 800ms;
+    box-shadow: 5px 5px 10px grey;
+}
+
+button:hover { 
+    background-color: rgba(32, 178, 171, 0.699);
+    transition: 800ms;
+}
